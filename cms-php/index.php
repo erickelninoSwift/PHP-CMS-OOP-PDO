@@ -1,6 +1,11 @@
 <?php include "./partials/header.php"; ?>
 <?php include "./partials/navbar.php";?>
 
+<?php 
+     $database = new Database();
+
+?>
+
 <!-- Main Content -->
 <header class="bg-black text-white py-5">
     <div class="container">
