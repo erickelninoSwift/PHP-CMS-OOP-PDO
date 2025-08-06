@@ -82,7 +82,7 @@ textarea.form-control-lg {
             </div>
             <div class="d-flex justify-content-center">
                 <button type="submit" class="btn btn-publish btn-lg px-5 me-3 text-white">Publish Article</button>
-                <a href="admin.html" class="btn btn-outline-secondary btn-lg px-5">Cancel</a>
+                <a href="admin.php" class="btn btn-outline-secondary btn-lg px-5">Cancel</a>
             </div>
         </form>
     </div>
