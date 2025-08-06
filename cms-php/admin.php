@@ -1,13 +1,5 @@
 <?php include "./partials/header.php"; ?>
 <?php include "./partials/admin/navbar.php";?>
-<?php  include __DIR__ . "/helper/helper.php";
-   echo base_root_path() . "<br>";
-   echo uploads_path() . "<br>";
-   echo uploads_url('ericke.jpg'). "<br>";
-   echo assets_url();
-//    echo classes_url();
-?>
-
 <!-- Main Content -->
 
 <section class="bg-dark text-white py-5 h-100">
