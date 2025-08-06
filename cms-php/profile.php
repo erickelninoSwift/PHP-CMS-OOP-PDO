@@ -1,5 +1,5 @@
 <?php include "./partials/header.php"; ?>
-<?php include "./partials/navbar.php";?>
+<?php include "./partials/admin/navbar.php";?>
 
 <!-- Main Content -->
 <header class="bg-black text-white py-5">

@@ -26,7 +26,7 @@
                 </form>
                 <div class="mt-3 text-center">
                     <small>
-                        Don't have an account? <a href="register.html">Register here</a>.
+                        Don't have an account? <a href="register.php">Register here</a>.
                     </small>
                 </div>
             </div>
