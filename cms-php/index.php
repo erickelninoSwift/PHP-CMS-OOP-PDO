@@ -22,7 +22,7 @@
                 Discover how technology is reshaping the world with futuristic
                 gadgets and AI-powered tools.
             </p>
-            <a href="article.html" class="btn btn-outline-primary">Read More</a>
+            <a href="article.php" class="btn btn-outline-primary">Read More</a>
         </div>
     </div>
 
@@ -37,7 +37,7 @@
                 A guide to writing clean, secure, and scalable PHP OOP code with PDO
                 and modern practices.
             </p>
-            <a href="#" class="btn btn-outline-primary">Read More</a>
+            <a href="article.php" class="btn btn-outline-primary">Read More</a>
         </div>
     </div>
 
@@ -52,7 +52,7 @@
                 Learn the benefits of building a custom CMS from scratch using PHP,
                 OOP, and MySQL.
             </p>
-            <a href="#" class="btn btn-outline-primary">Read More</a>
+            <a href="article.php" class="btn btn-outline-primary">Read More</a>
         </div>
     </div>
 </main>
