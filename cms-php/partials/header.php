@@ -9,6 +9,7 @@
     <style>
     body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
     }
 
     .navbar {
