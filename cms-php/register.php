@@ -1,6 +1,17 @@
 <?php include "./partials/header.php"; ?>
 <?php include "./partials/navbar.php";?>
+<?php 
+    if(isPostrequest()) {
+        //
+        $name = getPostParams('name');
+        $email = getPostParams('email');
+        $password = getPostParams('password');
+        $re_pass = getPostParams('confirm-password');
+        //
+        echo "hello world";
+    }
 
+?>
 <!-- Main Content -->
 <header class="bg-black text-white py-5">
     <div class="container">
@@ -16,7 +27,7 @@
         <div class="col-md-6">
             <div class="register-card">
                 <h2 class="text-center mb-4">Register</h2>
-                <form action="welcome.html" method="post">
+                <form action="" method="post">
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name *</label>
                         <input type="text" class="form-control" id="name" name="name" required />

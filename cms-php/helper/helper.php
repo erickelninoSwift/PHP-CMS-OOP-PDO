@@ -43,3 +43,11 @@
         header('location : ' . base_url($url));
         exit;
     }
+
+    function isPostrequest() {
+      return $_SERVER['REQUEST_METHOD'] == 'POST';
+    }
+
+    function getPostParams ($field, $default = null) {
+       return isset($_POST[$field]) ? trim($_POST[$field]) : $default;
+    }
