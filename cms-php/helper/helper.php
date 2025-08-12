@@ -4,9 +4,9 @@
     function base_url($path = ''){
 
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https://' : 'http://';
-        $host = $_SERVER['HTTP_HOST'];
+        $host = $_SERVER['HTTP_HOST'] . '/' . PROJECT_DIR;
 
-        $base_url = $protocol .$host . "/" . trim($path);
+        $base_url = $protocol .$host . "/" . ltrim($path);
         return  $base_url;
         
     }
@@ -14,7 +14,7 @@
     // this will give us the root path of our project /Applications/MAMP/htdocs/php_basics/CMS-OOP/cms-php/
     function base_root_path($path = '') {
         //
-        $root_path = dirname(__DIR__);
+        $root_path = dirname(__DIR__) . DIRECTORY_SEPARATOR . PROJECT_DIR;
         return $root_path . DIRECTORY_SEPARATOR . ltrim($path, DIRECTORY_SEPARATOR);
         
     }

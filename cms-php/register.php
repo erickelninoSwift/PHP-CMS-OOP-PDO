@@ -8,7 +8,26 @@
         $password = getPostParams('password');
         $re_pass = getPostParams('confirm-password');
         //
-        echo "hello world";
+
+        $user_object = [
+            "username" => $name,
+            "email" => $email,
+            "password" => $password,
+            "re_try" => $re_pass
+        ];
+        // user instance
+        $user_registered = new User();
+        if($password == $re_pass) {
+            //
+            if($user_registered->createUser($name,$email,$password)) {
+                echo 'user registered';
+                header("location: http://localhost:8888/php_basics/CMS-OOP/cms-php/login.php");
+            }else {
+                 echo "registration failed";
+            }
+        }else {
+             echo "password does not match";
+        }
     }
 
 ?>

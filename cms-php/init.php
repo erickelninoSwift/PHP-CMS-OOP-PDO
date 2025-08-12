@@ -17,5 +17,6 @@
 
   //define constants 
   define("APP_NAME", "CMS PDO SYSTEM");
-     
+  define('PROJECT_DIR','cms-php');
+
   ?>
